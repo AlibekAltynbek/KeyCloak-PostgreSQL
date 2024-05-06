@@ -18,7 +18,7 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
       KC_DB: postgres
-      KC_DB_URL: jdbc:postgresql://host.docker.internal:5432/keycloak  # Use host.docker.internal to refer to your localhost
+      KC_DB_URL: jdbc:postgresql://kc-db.c5u2ay66e1qg.eu-north-1.rds.amazonaws.com:5432/postgres
       KC_DB_USERNAME: postgres
       KC_DB_PASSWORD: postgres
     ports:
